@@ -32,7 +32,7 @@ var app = new Vue({
       if (!!get) {
         return JSON.parse(get)
       } else {
-        return await fetch('https://poe.ninja/api/data/itemoverview?league=Ultimatum&language=en&type=' + type)
+        return await fetch('https://cors.bridged.cc/https://poe.ninja/api/data/itemoverview?league=Ultimatum&language=en&type=' + type)
           .then((response) => response.json())
           .then((jsonData) => {
             localStorage.setItem(type, JSON.stringify(jsonData))
