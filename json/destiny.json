@@ -1,0 +1,971 @@
+[
+  {
+    "prophecy": {
+      "zh": "國王之道",
+      "us": "The King's Path",
+      "price": ""
+    },
+    "item": {
+      "zh": "岡姆的遠見",
+      "us": "Kaom's Sign",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "岡姆之路",
+      "us": "Kaom's Way",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "卡魯叛軍",
+      "us": "The Karui Rebellion",
+      "price": ""
+    },
+    "item": {
+      "zh": "卡魯的戰徽",
+      "us": "Karui Ward",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "卡魯充能",
+      "us": "Karui Charge",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "國王和荊棘",
+      "us": "The King and the Brambles",
+      "price": ""
+    },
+    "item": {
+      "zh": "刺棘寶甲",
+      "us": "Bramblejack",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "荊棘之牆",
+      "us": "Wall of Brambles",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "能源流動",
+      "us": "The Flow of Energy",
+      "price": ""
+    },
+    "item": {
+      "zh": "薛朗的秘術長靴",
+      "us": "Shavronne's Pace",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "薛朗的詭計",
+      "us": "Shavronne's Gambit",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "弓弦之樂",
+      "us": "The Bowstring's Music",
+      "price": ""
+    },
+    "item": {
+      "zh": "冥使之琴",
+      "us": "Death's Harp",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "死亡之作",
+      "us": "Death's Opus",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "虛空",
+      "us": "From The Void",
+      "price": ""
+    },
+    "item": {
+      "zh": "幽暗之語",
+      "us": "Blackheart",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "虛空心靈",
+      "us": "Voidheart",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "沉重打擊",
+      "us": "Heavy Blows",
+      "price": ""
+    },
+    "item": {
+      "zh": "岩頭",
+      "us": "Craghead",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "落石",
+      "us": "Cragfall",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "火和硫磺",
+      "us": "Fire and Brimstone",
+      "price": ""
+    },
+    "item": {
+      "zh": "黑炎之芒",
+      "us": "Blackgleam",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "狼煙",
+      "us": "The Signal Fire",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "偽神之林",
+      "us": "A Forest of False Idols",
+      "price": ""
+    },
+    "item": {
+      "zh": "隱靈之符",
+      "us": "Araku Tiki",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "拿瑪乎蒂基",
+      "us": "Ngamahu Tiki",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "冰與火",
+      "us": "Fire and Ice",
+      "price": ""
+    },
+    "item": {
+      "zh": "冰冷之眼",
+      "us": "Hrimsorrow",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "李姆本",
+      "us": "Hrimburn",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "快樂與苦痛",
+      "us": "Pleasure and Pain",
+      "price": ""
+    },
+    "item": {
+      "zh": "刺棘之冠",
+      "us": "Crown of Thorns",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "烈士之冠",
+      "us": "Martyr's Crown",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "終極鮮血之花",
+      "us": "The Bloody Flowers Redux",
+      "price": ""
+    },
+    "item": {
+      "zh": "艾茲麥的榮光",
+      "us": "Ezomyte Peak",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "艾茲麥之握",
+      "us": "Ezomyte Hold",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "死亡之泣",
+      "us": "Dying Cry",
+      "price": ""
+    },
+    "item": {
+      "zh": "喪鐘",
+      "us": "Deidbell",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "喪吼",
+      "us": "Deidbellow",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "恐懼之口",
+      "us": "Mouth of Horrors",
+      "price": ""
+    },
+    "item": {
+      "zh": "恐懼之缶",
+      "us": "Chalice of Horrors",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "顫慄之飢",
+      "us": "Thirst for Horrors",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "自然的抵抗",
+      "us": "Nature's Resilience",
+      "price": ""
+    },
+    "item": {
+      "zh": "新生之徽",
+      "us": "Springleaf",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "橡樹",
+      "us": "The Oak",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "火焰氣息",
+      "us": "The Snuffed Flame",
+      "price": ""
+    },
+    "item": {
+      "zh": "冰霜之鏡",
+      "us": "Kaltenhalt",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "冰霜之魂",
+      "us": "Kaltensoul",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "頂尖掠食者",
+      "us": "The Apex Predator",
+      "price": ""
+    },
+    "item": {
+      "zh": "鷹嘯",
+      "us": "The Screaming Eagle",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "獅鷲",
+      "us": "The Gryphon",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "肢解",
+      "us": "Severed Limbs",
+      "price": ""
+    },
+    "item": {
+      "zh": "斷罪",
+      "us": "Limbsplit",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "燒灼器",
+      "us": "The Cauteriser",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "古代末日",
+      "us": "Ancient Doom",
+      "price": ""
+    },
+    "item": {
+      "zh": "滅世",
+      "us": "Doomfletch",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "滅世之獄",
+      "us": "Doomfletch's Prism",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "銀色叢林",
+      "us": "The Silverwood",
+      "price": ""
+    },
+    "item": {
+      "zh": "幻銀之弦",
+      "us": "Silverbranch",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "銀枝",
+      "us": "Silverbough",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "僕人之心",
+      "us": "The Servant's Heart",
+      "price": ""
+    },
+    "item": {
+      "zh": "暴雨之弦",
+      "us": "Storm Cloud",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "暴風雨",
+      "us": "The Tempest",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "冬季悲歌",
+      "us": "Winter's Mournful Melodies",
+      "price": ""
+    },
+    "item": {
+      "zh": "雷姆諾的奪命樂具",
+      "us": "Hrimnor's Hymn",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "雷姆諾的輓歌",
+      "us": "Hrimnor's Dirge",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "力量擴大",
+      "us": "Power Magnified",
+      "price": ""
+    },
+    "item": {
+      "zh": "混響",
+      "us": "Reverberation Rod",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "增幅杖",
+      "us": "Amplification Rod",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "終結的起點",
+      "us": "The Beginning and the End",
+      "price": ""
+    },
+    "item": {
+      "zh": "創域",
+      "us": "Realmshaper",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "魂界終結",
+      "us": "Realm Ender",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "誤會女王",
+      "us": "The Misunderstood Queen",
+      "price": ""
+    },
+    "item": {
+      "zh": "威嚴之刃",
+      "us": "Queen's Decree",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "逃亡女王",
+      "us": "Queen's Escape",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "光明盡頭",
+      "us": "End of the Light",
+      "price": ""
+    },
+    "item": {
+      "zh": "冰息",
+      "us": "Icetomb",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "水晶寶庫",
+      "us": "Crystal Vault",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "貪婪的愚蠢",
+      "us": "Greed's Folly",
+      "price": ""
+    },
+    "item": {
+      "zh": "迴光之跡",
+      "us": "Wondertrap",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "貪婪之跡",
+      "us": "Greedtrap",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "最後的野人",
+      "us": "Last of the Wildmen",
+      "price": ""
+    },
+    "item": {
+      "zh": "荒途",
+      "us": "Briskwrap",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "野變",
+      "us": "Wildwrap",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "太陽的懲罰",
+      "us": "Sun's Punishment",
+      "price": ""
+    },
+    "item": {
+      "zh": "日耀",
+      "us": "Sundance",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "日咒",
+      "us": "Sunspite",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "禁忌尖嘯",
+      "us": "Darktongue's Shriek",
+      "price": ""
+    },
+    "item": {
+      "zh": "惡風足跡",
+      "us": "Windscream",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "風嘯",
+      "us": "Windshriek",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "苦痛黃昏",
+      "us": "Agony at Dusk",
+      "price": ""
+    },
+    "item": {
+      "zh": "迎暮",
+      "us": "Dusktoe",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "日落破滅",
+      "us": "Duskblight",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "惡巫",
+      "us": "The Malevolent Witch",
+      "price": ""
+    },
+    "item": {
+      "zh": "德瑞的精神手套",
+      "us": "Doedre's Tenure",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "德瑞的惡意",
+      "us": "Doedre's Malevolence",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "冰火之視",
+      "us": "A Vision of Ice and Fire",
+      "price": ""
+    },
+    "item": {
+      "zh": "寒焰",
+      "us": "Heatshiver",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "霜獄",
+      "us": "Frostferno",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "命定時光",
+      "us": "A Rift in Time",
+      "price": ""
+    },
+    "item": {
+      "zh": "時光之握",
+      "us": "Timeclasp",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "時空扭曲",
+      "us": "Timetwist",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "女王獻祭",
+      "us": "The Queen's Sacrifice",
+      "price": ""
+    },
+    "item": {
+      "zh": "阿茲里之鏡",
+      "us": "Atziri's Mirror",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "阿茲里的映照",
+      "us": "Atziri's Reflection",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "命定重擊",
+      "us": "The Fall of an Empire",
+      "price": ""
+    },
+    "item": {
+      "zh": "重擊之錘",
+      "us": "Quecholli",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "噸擊之錘",
+      "us": "Panquetzaliztli",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "塔中鳥",
+      "us": "Trapped in the Tower",
+      "price": ""
+    },
+    "item": {
+      "zh": "綠藤",
+      "us": "Fencoil",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "尼根",
+      "us": "Mirebough",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "風尖",
+      "us": "The Storm Spire",
+      "price": ""
+    },
+    "item": {
+      "zh": "風暴之眼",
+      "us": "The Stormheart",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "風暴堅牆",
+      "us": "The Stormwall",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "暗覺",
+      "us": "Dark Instincts",
+      "price": ""
+    },
+    "item": {
+      "zh": "狐毛鎧",
+      "us": "Foxshade",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "狐毛之富",
+      "us": "Fox's Fortune",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "絲克瑪之曲",
+      "us": "Song of the Sekhema",
+      "price": ""
+    },
+    "item": {
+      "zh": "安賽娜絲的迅敏之冠",
+      "us": "Asenath's Mark",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "安賽娜絲的歌頌",
+      "us": "Asenath's Chant",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "惡魘覺醒",
+      "us": "The Nightmare Awakens",
+      "price": ""
+    },
+    "item": {
+      "zh": "瑪拉凱的祭具",
+      "us": "Malachai's Simula",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "瑪拉凱的覺醒",
+      "us": "Malachai's Awakening",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "盲從",
+      "us": "Blind Faith",
+      "price": ""
+    },
+    "item": {
+      "zh": "烈陽徽記",
+      "us": "The Ignomon",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "艾非根",
+      "us": "The Effigon",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "北境的偉大意志",
+      "us": "The Great Mind of the North",
+      "price": ""
+    },
+    "item": {
+      "zh": "堅毅之環",
+      "us": "The Magnate",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "智勇軍師",
+      "us": "The Tactician",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "北境的偉大領導",
+      "us": "The Great Leader of the North",
+      "price": ""
+    },
+    "item": {
+      "zh": "堅毅之環",
+      "us": "The Magnate",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "游牧",
+      "us": "The Nomad",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "冷血憤怒",
+      "us": "Cold Blooded Fury",
+      "price": ""
+    },
+    "item": {
+      "zh": "沸血",
+      "us": "Bloodboil",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "冬織",
+      "us": "Winterweave",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "拜恥之死",
+      "us": "A Dishonourable Death",
+      "price": ""
+    },
+    "item": {
+      "zh": "西里的嗜血之矢",
+      "us": "Hyrri's Bite",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "西里的死亡",
+      "us": "Hyrri's Demise",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "燃燒之懼",
+      "us": "Burning Dread",
+      "price": ""
+    },
+    "item": {
+      "zh": "恐懼之鐮",
+      "us": "Dreadarc",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "畏懼波動",
+      "us": "Dreadsurge",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "緋紅色調",
+      "us": "Crimson Hues",
+      "price": ""
+    },
+    "item": {
+      "zh": "血鑿",
+      "us": "Goredrill",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "血腥之躍",
+      "us": "Sanguine Gambol",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "黑心信徒",
+      "us": "Black Devotion",
+      "price": ""
+    },
+    "item": {
+      "zh": "吉爾菲的淨罪之錘",
+      "us": "Geofri's Baptism",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "吉爾菲的奉獻",
+      "us": "Geofri's Devotion",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "凜凍貪婪",
+      "us": "Cold Greed",
+      "price": ""
+    },
+    "item": {
+      "zh": "卡美利亞之錘",
+      "us": "Cameria's Maul",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "卡美利亞的貪婪",
+      "us": "Cameria's Avarice",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "恐懼喙鳥",
+      "us": "The Dreaded Rhoa",
+      "price": ""
+    },
+    "item": {
+      "zh": "赤紅短刃",
+      "us": "Redbeak",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "恐懼之喙",
+      "us": "Dreadbeak",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "機械舞",
+      "us": "Dance of Steel",
+      "price": ""
+    },
+    "item": {
+      "zh": "狂舞德爾維希",
+      "us": "The Dancing Dervish",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "雙人舞",
+      "us": "The Dancing Duo",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "光盲",
+      "us": "Blinding Light",
+      "price": ""
+    },
+    "item": {
+      "zh": "宇蝕",
+      "us": "Eclipse Solaris",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "日耀之冕",
+      "us": "Corona Solaris",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "硬戰",
+      "us": "Battle Hardened",
+      "price": ""
+    },
+    "item": {
+      "zh": "鐵石心腸",
+      "us": "Iron Heart",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "鋼鐵壁壘",
+      "us": "The Iron Fortress",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "信仰之掘",
+      "us": "Faith Exhumed",
+      "price": ""
+    },
+    "item": {
+      "zh": "忠誠之錘",
+      "us": "Chober Chaber",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "忠誠之記",
+      "us": "Chaber Cairn",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "侵略者的終點",
+      "us": "The Mentor",
+      "price": ""
+    },
+    "item": {
+      "zh": "遠祖之顱",
+      "us": "Matua Tupuna",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "養育之恩",
+      "us": "Whakatutuki o Matua",
+      "price": ""
+    }
+  },
+  {
+    "prophecy": {
+      "zh": "主教遺志",
+      "us": "The Bishop's Legacy",
+      "price": ""
+    },
+    "item": {
+      "zh": "吉爾菲的榮光",
+      "us": "Geofri's Crest",
+      "price": ""
+    },
+    "upgrades": {
+      "zh": "吉爾菲的遺產",
+      "us": "Geofri's Legacy",
+      "price": ""
+    }
+  }
+]
