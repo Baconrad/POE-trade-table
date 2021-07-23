@@ -39,7 +39,7 @@ var app = new Vue({
       if (!!get) {
         return JSON.parse(get)
       } else {
-        return await fetch('https://cors.bridged.cc/https://poe.ninja/api/data/itemoverview?league=Ultimatum&language=en&type=' + type)
+        return await fetch('https://cors.bridged.cc/https://poe.ninja/api/data/itemoverview?league=Expedition&language=en&type=' + type)
           .then((response) => response.json())
           .then((jsonData) => {
             localStorage.setItem(type, JSON.stringify(jsonData))
@@ -48,10 +48,10 @@ var app = new Vue({
       }
     },
     tradeLink(name) {
-      return `https://www.pathofexile.com/trade/search/Heist?q={"query":{"name":"${name}"}}`
+      return `https://www.pathofexile.com/trade/search/Expedition?q={"query":{"name":"${name}"}}`
     },
     trade6LLink(name) {
-      return `https://www.pathofexile.com/trade/search/Heist?q={"query":{"filters":{"socket_filters":{"filters":{"links":{"min":6}}}},"name":"${name}"}}`
+      return `https://www.pathofexile.com/trade/search/Expedition?q={"query":{"filters":{"socket_filters":{"filters":{"links":{"min":6}}}},"name":"${name}"}}`
     },
     loadData() {
       this.loading = true
@@ -219,5 +219,66 @@ var app = new Vue({
   async mounted() {
     console.log('mounted')
     this.loadData()
+    // get 預言 price
+
+    // fetch('https://poe.ninja/api/data/itemoverview?league=Metamorph&type=Prophecy&language=en')
+    //   .then(response => response.json())
+    //   .then(jsonData => {
+    //     let lines = jsonData.lines;
+    //     this.destinyList.forEach(destiny => {
+    //       let prophecy = lines.find(({ name }) => name === destiny.prophecy.us)
+    //       destiny.prophecy.price = prophecy.chaosValue
+    //     })
+    //   });
+    // get 飾品 price
+    // fetch('https://poe.ninja/api/data/itemoverview?league=Metamorph&type=UniqueAccessory&language=en')
+    //   .then(response => response.json())
+    //   .then(jsonData => {
+    //     let lines = jsonData.lines;
+    //     this.destinyList.forEach(destiny => {
+    //       let item = lines.find(({ name }) => name === destiny.item.us)
+    //       if (!!item) {
+    //         destiny.item.price = item.chaosValue
+    //       }
+    //       let upgrades = lines.find(({ name }) => name === destiny.upgrades.us)
+    //       if (!!upgrades) {
+    //         destiny.upgrades.price = upgrades.chaosValue
+    //       }
+    //     })
+    //   });
+    // get 鎧甲 price
+    // fetch('https://poe.ninja/api/data/itemoverview?league=Metamorph&type=UniqueArmour&language=en')
+    //   .then(response => response.json())
+    //   .then(jsonData => {
+    //     let lines = jsonData.lines;
+    //     this.destinyList.forEach(destiny => {
+    //       let item = lines.find(({ name }) => name === destiny.item.us)
+    //       if (!!item) {
+    //         destiny.item.price = item.chaosValue
+    //       }
+    //       let upgrades = lines.find(({ name }) => name === destiny.upgrades.us)
+    //       if (!!upgrades) {
+    //         destiny.upgrades.price = upgrades.chaosValue
+    //       }
+    //     })
+    //   });
+    // get 武器 price
+    // fetch('https://poe.ninja/api/data/itemoverview?league=Metamorph&type=UniqueWeapon&language=en')
+    //   .then(response => response.json())
+    //   .then(jsonData => {
+    //     console.log('jsonData', jsonData);
+    //     let lines = jsonData.lines;
+    //     this.destinyList.forEach(destiny => {
+    //       let item = lines.find(({ name }) => name === destiny.item.us)
+    //       if (!!item) {
+    //         destiny.item.price = item.chaosValue
+    //       }
+    //       let upgrades = lines.find(({ name }) => name === destiny.upgrades.us)
+    //       if (!!upgrades) {
+    //         destiny.upgrades.price = upgrades.chaosValue
+    //       }
+    //     })
+    //   });
+    // strip
   },
 })
