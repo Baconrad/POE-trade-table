@@ -1,6 +1,13 @@
 var app = new Vue({
   el: '#app',
   data: {
+    loading: true,
+    status: {
+      prophecy: 'loading...',
+      accessory: 'loading...',
+      armour: 'loading...',
+      weapon: 'loading...',
+    },
     destinyList: [
       {
         prophecy: {
@@ -47,15 +54,24 @@ var app = new Vue({
       return `https://www.pathofexile.com/trade/search/Heist?q={"query":{"filters":{"socket_filters":{"filters":{"links":{"min":6}}}},"name":"${name}"}}`
     },
     loadData() {
+      this.loading = true
+      localStorage.clear()
       // load local data
       fetch('json/destiny.json')
         .then((response) => response.json())
         .then(async (destinyList) => {
+          this.status.prophecy = 'loading...'
           let Prophecy = (await this.myFetch('Prophecy')).lines
+          this.status.prophecy = 'done'
+          this.status.accessory = 'loading...'
           let UniqueAccessory = (await this.myFetch('UniqueAccessory')).lines
+          this.status.accessory = 'done'
+          this.status.armour = 'loading...'
           let UniqueArmour = (await this.myFetch('UniqueArmour')).lines
+          this.status.armour = 'done'
+          this.status.weapon = 'loading...'
           let UniqueWeapon = (await this.myFetch('UniqueWeapon')).lines
-          //
+          this.status.weapon = 'done'
           destinyList.forEach((destiny) => {
             // add link
             destiny.prophecy.link = this.tradeLink(destiny.prophecy.us)
@@ -196,6 +212,7 @@ var app = new Vue({
           })
           destinyList.sort((a, b) => b.profit - a.profit)
           this.destinyList = destinyList
+          this.loading = false
         })
     },
   },
