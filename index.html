@@ -35,7 +35,7 @@
 <body>
     <div class="container" id="app" v-cloak>
         <div v-hide="loading">
-            <button type="button" class="btn btn-primary" v-on:click="reload">reload</button>
+            <button type="button" class="btn btn-primary" v-on:click="reload()">reload</button>
         </div>
         <table class="table table-hover table-bordered table-dark" v-show="loading">
             <thead>
