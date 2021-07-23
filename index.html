@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
+        [v-cloak] { display: none; }
         .prophecy>a {
             color: #b047fa;
         }
@@ -32,11 +33,42 @@
 </head>
 
 <body>
-    <div class="container" id="app">
-        <div>
-            <button type="button" class="btn btn-primary">reload</button>
+    <div class="container" id="app" v-cloak>
+        <div v-hide="loading">
+            <button type="button" class="btn btn-primary" v-click="reload">reload</button>
         </div>
-        <table class="table table-hover table-bordered table-dark">
+        <table class="table table-hover table-bordered table-dark" v-show="loading">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">type</th>
+                    <th scope="col">status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Prophecy</td>
+                    <td>{{ status.prophecy }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Unique Accessory</td>
+                    <td>{{ status.accessory }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Unique Armour</td>
+                    <td>{{ status.armour }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Unique Weapon</td>
+                    <td>{{ status.weapon }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-hover table-bordered table-dark" v-hide="loading">
             <thead>
                 <tr>
                     <th scope="col">#</th>
