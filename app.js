@@ -53,7 +53,7 @@ var app = new Vue({
     trade6LLink(name) {
       return `https://www.pathofexile.com/trade/search/Expedition?q={"query":{"filters":{"socket_filters":{"filters":{"links":{"min":6}}}},"name":"${name}"}}`
     },
-    loadData(clearData = flase) {
+    loadData(clearData = false) {
       this.loading = true
       if (clearDate) {
         localStorage.clear()
