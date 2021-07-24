@@ -55,7 +55,7 @@ var app = new Vue({
     },
     loadData(clearData = false) {
       this.loading = true
-      if (clearDate) {
+      if (clearData) {
         localStorage.clear()
       }
       // load local data
