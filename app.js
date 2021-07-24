@@ -216,7 +216,7 @@ var app = new Vue({
           destinyList.sort((a, b) => {
             let aa = a.profit || 0
             let bb = b.profit || 0
-            return b - a
+            return bb - aa
           })
           this.destinyList = destinyList
           this.loading = false
