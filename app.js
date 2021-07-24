@@ -53,9 +53,11 @@ var app = new Vue({
     trade6LLink(name) {
       return `https://www.pathofexile.com/trade/search/Expedition?q={"query":{"filters":{"socket_filters":{"filters":{"links":{"min":6}}}},"name":"${name}"}}`
     },
-    loadData() {
+    loadData(clearData = fasle) {
       this.loading = true
-      localStorage.clear()
+      if (clearDate) {
+        localStorage.clear()
+      }
       // load local data
       fetch('json/destiny.json')
         .then((response) => response.json())
@@ -79,6 +81,7 @@ var app = new Vue({
             destiny.upgrades.link = this.tradeLink(destiny.upgrades.us)
             // Prophecy
             let prophecy = Prophecy.find(({ name }) => name === destiny.prophecy.us)
+            if (prophecy) return
             destiny.prophecy.price = prophecy.chaosValue
             destiny.prophecy.increase = prophecy.lowConfidenceSparkline.totalChange
             console.log(destiny.prophecy.zh, destiny.prophecy.increase)
