@@ -81,7 +81,7 @@ var app = new Vue({
             destiny.upgrades.link = this.tradeLink(destiny.upgrades.us)
             // Prophecy
             let prophecy = Prophecy.find(({ name }) => name === destiny.prophecy.us)
-            if (prophecy) return
+            if (!prophecy) return
             destiny.prophecy.price = prophecy.chaosValue
             destiny.prophecy.increase = prophecy.lowConfidenceSparkline.totalChange
             // console.log(destiny.prophecy.zh, destiny.prophecy.increase)
