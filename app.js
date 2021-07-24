@@ -81,9 +81,10 @@ var app = new Vue({
             destiny.upgrades.link = this.tradeLink(destiny.upgrades.us)
             // Prophecy
             let prophecy = Prophecy.find(({ name }) => name === destiny.prophecy.us)
-            if (!prophecy) return
-            destiny.prophecy.price = prophecy.chaosValue
-            destiny.prophecy.increase = prophecy.lowConfidenceSparkline.totalChange
+            if (!!prophecy) {
+              destiny.prophecy.price = prophecy.chaosValue
+              destiny.prophecy.increase = prophecy.lowConfidenceSparkline.totalChange
+            }
             // console.log(destiny.prophecy.zh, destiny.prophecy.increase)
             // UniqueAccessory
             let UAccessory_item = UniqueAccessory.find(({ name }) => name === destiny.item.us)
@@ -154,7 +155,6 @@ var app = new Vue({
             if (!!UW6L_item || !!UW6L_upgrades) {
               UW6L_upgrades = UW6L_upgrades || { lowConfidenceSparkline: {} }
               //   console.log('price: UW6L_upgrades', UW6L_upgrades)
-
               destinyList.push({
                 prophecy: {
                   zh: destiny.prophecy.zh,
@@ -213,7 +213,11 @@ var app = new Vue({
             // strip
             destiny.profit = this.strip(destiny.upgrades.price - destiny.item.price - destiny.prophecy.price)
           })
-          destinyList.sort((a, b) => b.profit - a.profit)
+          destinyList.sort((a, b) => {
+            let aa = a.profit || 0
+            let bb = b.profit || 0
+            return b - a
+          })
           this.destinyList = destinyList
           this.loading = false
         })
