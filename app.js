@@ -107,6 +107,9 @@ var app = new Vue({
             console.log('[ UniqueArmour ]', destiny.item.zh, destiny.item.us)
             let UArmour_item = UniqueArmour.find(({ name, links }) => name === destiny.item.us)
             if (!!UArmour_item) {
+              UArmour_item.links = !!UArmour_item.links || 0
+            }
+            if (!!UArmour_item && UArmour_item.links == 0) {
               console.log('UArmour_item', destiny.item.zh, UniqueArmour)
               UArmour_item.lowConfidenceSparkline = UArmour_item.lowConfidenceSparkline || {}
               destiny.item.price = UArmour_item.chaosValue
@@ -114,6 +117,9 @@ var app = new Vue({
             }
             let UArmour_upgrades = UniqueArmour.find(({ name, links }) => name === destiny.upgrades.us)
             if (!!UArmour_upgrades) {
+              UArmour_upgrades.links = !!UArmour_upgrades.links || 0
+            }
+            if (!!UArmour_upgrades && UArmour_upgrades.links == 0) {
               console.log('UArmour_upgrades', destiny.item.zh, UniqueArmour)
               UArmour_upgrades.lowConfidenceSparkline = UArmour_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UArmour_upgrades.chaosValue
@@ -123,11 +129,17 @@ var app = new Vue({
             console.log('[ UniqueWeapon ]')
             let UW_item = UniqueWeapon.find(({ name, links }) => name === destiny.item.us)
             if (!!UW_item) {
+              UW_item.links = !!UW_item.links || 0
+            }
+            if (!!UW_item) {
               UW_item.lowConfidenceSparkline = UW_item.lowConfidenceSparkline || {}
               destiny.item.price = UW_item.chaosValue
               destiny.item.increase = UW_item.lowConfidenceSparkline.totalChange
             }
             let UW_upgrades = UniqueWeapon.find(({ name, links }) => name === destiny.upgrades.us)
+            if (!!UW_upgrades) {
+              UW_upgrades.links = !!UW_upgrades.links || 0
+            }
             if (!!UW_upgrades) {
               UW_upgrades.lowConfidenceSparkline = UW_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UW_upgrades.chaosValue
