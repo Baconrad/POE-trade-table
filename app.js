@@ -153,6 +153,7 @@ var app = new Vue({
               })
             }
             if (!!UW6L_item || !!UW6L_upgrades) {
+              UW6L_item = UW6L_item || {}
               UW6L_upgrades = UW6L_upgrades || { lowConfidenceSparkline: {} }
               //   console.log('price: UW6L_upgrades', UW6L_upgrades)
               destinyList.push({
