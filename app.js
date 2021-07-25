@@ -131,7 +131,7 @@ var app = new Vue({
             if (!!UW_item) {
               UW_item.links = UW_item.links || 0
             }
-            if (!!UW_item) {
+            if (!!UW_item && UW_item.links == 0) {
               UW_item.lowConfidenceSparkline = UW_item.lowConfidenceSparkline || {}
               destiny.item.price = UW_item.chaosValue
               destiny.item.increase = UW_item.lowConfidenceSparkline.totalChange
@@ -140,7 +140,7 @@ var app = new Vue({
             if (!!UW_upgrades) {
               UW_upgrades.links = UW_upgrades.links || 0
             }
-            if (!!UW_upgrades) {
+            if (!!UW_upgrades && UW_upgrades.links == 0) {
               UW_upgrades.lowConfidenceSparkline = UW_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UW_upgrades.chaosValue
               destiny.upgrades.increase = UW_upgrades.lowConfidenceSparkline.totalChange
