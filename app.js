@@ -82,6 +82,7 @@ var app = new Vue({
             // Prophecy
             let prophecy = Prophecy.find(({ name }) => name === destiny.prophecy.us)
             if (!!prophecy) {
+              prophecy.lowConfidenceSparkline = prophecy.lowConfidenceSparkline || {}
               destiny.prophecy.price = prophecy.chaosValue
               destiny.prophecy.increase = prophecy.lowConfidenceSparkline.totalChange
             }
@@ -89,33 +90,39 @@ var app = new Vue({
             // UniqueAccessory
             let UAccessory_item = UniqueAccessory.find(({ name }) => name === destiny.item.us)
             if (!!UAccessory_item) {
+              UAccessory_item.lowConfidenceSparkline = UAccessory_item.lowConfidenceSparkline || {}
               destiny.item.price = UAccessory_item.chaosValue
               destiny.item.increase = UAccessory_item.lowConfidenceSparkline.totalChange
             }
             let UAccessory_upgrades = UniqueAccessory.find(({ name }) => name === destiny.upgrades.us)
             if (!!UAccessory_upgrades) {
+              UAccessory_upgrades.lowConfidenceSparkline = UAccessory_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UAccessory_upgrades.chaosValue
               destiny.upgrades.increase = UAccessory_upgrades.lowConfidenceSparkline.totalChange
             }
             // UniqueArmour
             let UArmour_item = UniqueArmour.find(({ name, links }) => name === destiny.item.us && links === 0)
             if (!!UArmour_item) {
+              UArmour_item.lowConfidenceSparkline = UArmour_item.lowConfidenceSparkline || {}
               destiny.item.price = UArmour_item.chaosValue
               destiny.item.increase = UArmour_item.lowConfidenceSparkline.totalChange
             }
             let UArmour_upgrades = UniqueArmour.find(({ name, links }) => name === destiny.upgrades.us && links === 0)
             if (!!UArmour_upgrades) {
+              UArmour_upgrades.lowConfidenceSparkline = UArmour_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UArmour_upgrades.chaosValue
               destiny.upgrades.increase = UArmour_upgrades.lowConfidenceSparkline.totalChange
             }
             // UniqueWeapon
             let UW_item = UniqueWeapon.find(({ name, links }) => name === destiny.item.us && links === 0)
             if (!!UW_item) {
+              UW_item.lowConfidenceSparkline = UW_item.lowConfidenceSparkline || {}
               destiny.item.price = UW_item.chaosValue
               destiny.item.increase = UW_item.lowConfidenceSparkline.totalChange
             }
             let UW_upgrades = UniqueWeapon.find(({ name, links }) => name === destiny.upgrades.us && links === 0)
             if (!!UW_upgrades) {
+              UW_upgrades.lowConfidenceSparkline = UW_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UW_upgrades.chaosValue
               destiny.upgrades.increase = UW_upgrades.lowConfidenceSparkline.totalChange
             }
