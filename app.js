@@ -80,7 +80,7 @@ var app = new Vue({
             destiny.item.link = this.tradeLink(destiny.item.us)
             destiny.upgrades.link = this.tradeLink(destiny.upgrades.us)
             // Prophecy
-            console.log('[ Prophecy ]')
+            // console.log('[ Prophecy ]')
             let prophecy = Prophecy.find(({ name }) => name === destiny.prophecy.us)
             if (!!prophecy) {
               prophecy.lowConfidenceSparkline = prophecy.lowConfidenceSparkline || {}
@@ -89,7 +89,7 @@ var app = new Vue({
             }
             // console.log(destiny.prophecy.zh, destiny.prophecy.increase)
             // UniqueAccessory
-            console.log('[ UniqueAccessory ]')
+            // console.log('[ UniqueAccessory ]')
             let UAccessory_item = UniqueAccessory.find(({ name }) => name === destiny.item.us)
             if (!!UAccessory_item) {
               //   console.log('UniqueAccessory', destiny.item.zh, UAccessory_item)
@@ -104,32 +104,32 @@ var app = new Vue({
               destiny.upgrades.increase = UAccessory_upgrades.lowConfidenceSparkline.totalChange
             }
             // UniqueArmour
-            console.log('[ UniqueArmour ]', destiny.item.zh, destiny.item.us)
+            // console.log('[ UniqueArmour ]', destiny.item.zh, destiny.item.us)
             let UArmour_item = UniqueArmour.find(({ name, links }) => name === destiny.item.us)
             if (!!UArmour_item) {
-              UArmour_item.links = !!UArmour_item.links || 0
+              UArmour_item.links = !UArmour_item.links || 0
             }
             if (!!UArmour_item && UArmour_item.links == 0) {
-              console.log('UArmour_item', destiny.item.zh, UniqueArmour)
+              //   console.log('UArmour_item', destiny.item.zh, UniqueArmour)
               UArmour_item.lowConfidenceSparkline = UArmour_item.lowConfidenceSparkline || {}
               destiny.item.price = UArmour_item.chaosValue
               destiny.item.increase = UArmour_item.lowConfidenceSparkline.totalChange
             }
             let UArmour_upgrades = UniqueArmour.find(({ name, links }) => name === destiny.upgrades.us)
             if (!!UArmour_upgrades) {
-              UArmour_upgrades.links = !!UArmour_upgrades.links || 0
+              UArmour_upgrades.links = !UArmour_upgrades.links || 0
             }
             if (!!UArmour_upgrades && UArmour_upgrades.links == 0) {
-              console.log('UArmour_upgrades', destiny.item.zh, UniqueArmour)
+              //   console.log('UArmour_upgrades', destiny.item.zh, UniqueArmour)
               UArmour_upgrades.lowConfidenceSparkline = UArmour_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UArmour_upgrades.chaosValue
               destiny.upgrades.increase = UArmour_upgrades.lowConfidenceSparkline.totalChange
             }
             // UniqueWeapon
-            console.log('[ UniqueWeapon ]')
+            // console.log('[ UniqueWeapon ]')
             let UW_item = UniqueWeapon.find(({ name, links }) => name === destiny.item.us)
             if (!!UW_item) {
-              UW_item.links = !!UW_item.links || 0
+              UW_item.links = !UW_item.links || 0
             }
             if (!!UW_item) {
               UW_item.lowConfidenceSparkline = UW_item.lowConfidenceSparkline || {}
@@ -138,7 +138,7 @@ var app = new Vue({
             }
             let UW_upgrades = UniqueWeapon.find(({ name, links }) => name === destiny.upgrades.us)
             if (!!UW_upgrades) {
-              UW_upgrades.links = !!UW_upgrades.links || 0
+              UW_upgrades.links = !UW_upgrades.links || 0
             }
             if (!!UW_upgrades) {
               UW_upgrades.lowConfidenceSparkline = UW_upgrades.lowConfidenceSparkline || {}
