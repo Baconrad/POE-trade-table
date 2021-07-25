@@ -90,6 +90,7 @@ var app = new Vue({
             // UniqueAccessory
             let UAccessory_item = UniqueAccessory.find(({ name }) => name === destiny.item.us)
             if (!!UAccessory_item) {
+              console.log('UniqueAccessory', destiny.item.zh, UAccessory_item)
               UAccessory_item.lowConfidenceSparkline = UAccessory_item.lowConfidenceSparkline || {}
               destiny.item.price = UAccessory_item.chaosValue
               destiny.item.increase = UAccessory_item.lowConfidenceSparkline.totalChange
