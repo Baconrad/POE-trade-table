@@ -90,7 +90,7 @@ var app = new Vue({
             // UniqueAccessory
             let UAccessory_item = UniqueAccessory.find(({ name }) => name === destiny.item.us)
             if (!!UAccessory_item) {
-              console.log('UniqueAccessory', destiny.item.zh, UAccessory_item)
+              //   console.log('UniqueAccessory', destiny.item.zh, UAccessory_item)
               UAccessory_item.lowConfidenceSparkline = UAccessory_item.lowConfidenceSparkline || {}
               destiny.item.price = UAccessory_item.chaosValue
               destiny.item.increase = UAccessory_item.lowConfidenceSparkline.totalChange
@@ -104,12 +104,14 @@ var app = new Vue({
             // UniqueArmour
             let UArmour_item = UniqueArmour.find(({ name, links }) => name === destiny.item.us && links === 0)
             if (!!UArmour_item) {
+              console.log('UArmour_item', destiny.item.zh, UniqueArmour)
               UArmour_item.lowConfidenceSparkline = UArmour_item.lowConfidenceSparkline || {}
               destiny.item.price = UArmour_item.chaosValue
               destiny.item.increase = UArmour_item.lowConfidenceSparkline.totalChange
             }
             let UArmour_upgrades = UniqueArmour.find(({ name, links }) => name === destiny.upgrades.us && links === 0)
             if (!!UArmour_upgrades) {
+              console.log('UArmour_upgrades', destiny.item.zh, UniqueArmour)
               UArmour_upgrades.lowConfidenceSparkline = UArmour_upgrades.lowConfidenceSparkline || {}
               destiny.upgrades.price = UArmour_upgrades.chaosValue
               destiny.upgrades.increase = UArmour_upgrades.lowConfidenceSparkline.totalChange
